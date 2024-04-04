@@ -1,0 +1,43 @@
+.reladerproducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;    
+}
+.reladerproducts1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 100px;
+    
+}
+
+.reladerproducts h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.reladerproducts hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.reladerproducts-item{
+    margin-top: 50px;
+    gap: 30px;
+    display: flex;
+}
+.reladerproducts button{
+    padding: 20px 40px; 
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #FF4141;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
